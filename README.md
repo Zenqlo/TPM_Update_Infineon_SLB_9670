@@ -1,14 +1,18 @@
-# Infineon TPM SLB 9670 TPM Chip FW Update in Windows - Guide and Links
+# Infineon TPM SLB 9670 TPM Chip FW Update Guide and Links 
+# 
 
 **Important Prerequisites:**
 * Disable BitLocker and any program using TPM
 * Disable and clear TPM in BIOS
 
 Please use the links below to download FW update programs from authorized OEM vendors. 
-In case of inaccessible links, public update files from OEM vendors are backed up in "OEM Vendor backup"
 
-Note: You may use Windows-To-Go USB to update if no Windows OS is on the current system.
-UEFI updates for Linux are available in the package; read readme inside the zip.
+* These files are proprietary, and uploading them to a public repository could infringe on the vendors’ intellectual property rights. 
+* Public availability for download does not automatically permit redistribution.
+
+Note: You may use Windows-To-Go USB to update in Windows if no Windows OS is on the current system.
+
+If you are familiar to command line or only use Linux, UEFI updates are available in the package; read readme inside the zip.
 
 ## Section A: Early Versions Update to 7.62.3126.0
 
@@ -36,7 +40,7 @@ Any of the above versions can be updated to 7.62.3126.0
 ### Update Instructions:
 1. Disable BitLocker and any program using TPM
 2. Disable and clear TPM in BIOS
-3. Navigate to https://www.supermicro.com/wdl/driver/TPM/
+3. Navigate to SuperMicro: https://www.supermicro.com/wdl/driver/TPM/
 4. Download "AOM-TPM-9670VH_7.62.3126.0.zip"
 
         Checksums: 
@@ -84,9 +88,11 @@ This package contains FW Upgrade from any of the following versions to 7.85.4555
 
         Source: https://support.hp.com/soar-attachment/923/col106405-ob-272765-1-ob-272765-1_sp94937_releasedoc.html
 
-2. Run "sp94937.exe" and navigate to "C:\SWSetup\sp94937" to find firmware files
-3. Use and follow the steps in Section A to use "TPMFactoryUpd.exe" to load your firmware
-4. Remove "C:\SWSetup" folder
+2. Run "sp94937.exe" and click continue to the end.
+3. Navigate to "C:\SWSetup\sp94937" to find firmware files
+4. Follow the steps in Section A, download "AOM-TPM-9670VH_7.62.3126.0.zip" and put the chosen firmware file to .\Tools\WinPE\Bin\x64\ the extracted zip folder.
+5. Follow the steps in Section A, use "TPMFactoryUpd.exe" to load your firmware
+6. Remove "C:\SWSetup" folder
 
 ## Section C: For Lenovo M710/M910 Series Only
 Official update from 7.62.3126.0 to 7.85.4555.0 for Lenovo
