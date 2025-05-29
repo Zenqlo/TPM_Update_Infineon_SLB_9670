@@ -8,7 +8,7 @@
 * If perfer command line or only use Linux, UEFI updates are also available in the package; read readme inside the zip.
 * Disable and clear TPM in BIOS
 
-Please use the links below sections to download FW update programs from authorized OEM vendors. 
+Please use the links in below sections to download FW update programs from authorized OEM vendors. 
 
 **Notice:**
 * These files are proprietary, and uploading them to a public repository could infringe on the vendors’ intellectual property rights. 
