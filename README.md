@@ -1,4 +1,4 @@
-# Infineon TPM SLB 9670 TPM Chip FW Update Guide and Links 
+# Infineon SLB 9670 TPM Chip FW Update Guide and Links 
 
 **Important Prerequisites:**
 * Disable BitLocker and any program using TPM
