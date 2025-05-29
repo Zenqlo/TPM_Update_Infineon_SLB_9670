@@ -1,12 +1,11 @@
 # Infineon TPM SLB 9670 TPM Chip FW Update Guide and Links 
-# 
 
 **Important Prerequisites:**
 * Disable BitLocker and any program using TPM
-* Check your OEM vender for updates if available, only use following guide if no updates available
+* Check your OEM vender for updates if available, only use following guide if no OEM updates available
 * Use as your own risk.
 * May use Windows-To-Go USB to update in Windows if no Windows OS is on the current system.
-* If you are familiar to command line or only use Linux, UEFI updates are available in the package; read readme inside the zip.
+* If perfer command line or only use Linux, UEFI updates are also available in the package; read readme inside the zip.
 * Disable and clear TPM in BIOS
 
 Please use the links below sections to download FW update programs from authorized OEM vendors. 
