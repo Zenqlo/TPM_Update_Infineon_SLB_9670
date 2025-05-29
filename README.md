@@ -3,16 +3,17 @@
 
 **Important Prerequisites:**
 * Disable BitLocker and any program using TPM
+* Check your OEM vender for updates if available, only use following guide if no updates available
+* Use as your own risk.
+* May use Windows-To-Go USB to update in Windows if no Windows OS is on the current system.
+* If you are familiar to command line or only use Linux, UEFI updates are available in the package; read readme inside the zip.
 * Disable and clear TPM in BIOS
 
-Please use the links below to download FW update programs from authorized OEM vendors. 
+Please use the links below sections to download FW update programs from authorized OEM vendors. 
 
+**Notice:**
 * These files are proprietary, and uploading them to a public repository could infringe on the vendors’ intellectual property rights. 
 * Public availability for download does not automatically permit redistribution.
-
-Note: You may use Windows-To-Go USB to update in Windows if no Windows OS is on the current system.
-
-If you are familiar to command line or only use Linux, UEFI updates are available in the package; read readme inside the zip.
 
 ## Section A: Early Versions Update to 7.62.3126.0
 
