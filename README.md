@@ -5,7 +5,7 @@
 * Check your OEM vender for updates if available, only use following guide if no OEM updates available
 * Use as your own risk.
 * May use Windows-To-Go USB to update in Windows if no Windows OS is on the current system.
-* If perfer command line or only use Linux, UEFI updates are also available in the package; read readme inside the zip.
+* If perfer command line or only use Linux, UEFI updates are also available in the package; read readme in zip.
 * Disable and clear TPM in BIOS
 
 Please use the links in below sections to download FW update programs from authorized OEM vendors. 
